@@ -154,7 +154,7 @@ const Login = () => {
 
     try {
       const response = await fetch(
-        "https://e-watse-locator.vercel.app/api/auth/login",
+        "https://e-watse-locator.vercel.app/Routes/auth/login",
         {
           method: "POST",
           headers: {
