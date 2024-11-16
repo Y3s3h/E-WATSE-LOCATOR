@@ -1,0 +1,271 @@
+/* 
+
+.main-content-container {
+  padding: 20px;
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+.intro-section {
+  background-color: #333;
+  color: #fff;
+  padding: 50px 20px;
+}
+
+.intro-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.intro-section p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.stats-section {
+  background-color: #e7f7f7;
+  padding: 50px 20px;
+}
+
+.stats-section h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.stat-item {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 200px;
+}
+
+.stat-item h3 {
+  font-size: 2.5rem;
+  color: #4caf50;
+}
+
+.stat-item p {
+  font-size: 1.2rem;
+}
+
+.three-d-section {
+  padding: 50px 20px;
+  background-color: #f8f8f8;
+}
+
+.three-d-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.solutions-section {
+  padding: 50px 20px;
+}
+
+.solutions-section h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.solutions-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.solution-item {
+  width: 200px;
+  text-align: center;
+  background-color: #fff;
+  padding: 30px 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.solution-icon {
+  font-size: 3rem;
+  color: #4caf50;
+}
+
+.solution-item h3 {
+  margin-top: 20px;
+  font-size: 1.5rem;
+}
+
+.cta-section {
+  padding: 50px 20px;
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.cta-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.cta-section p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  background-color: #fff;
+  color: #4caf50;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #4caf50;
+  color: #fff;
+} */
+
+/* src/components/MainContent.css */
+
+.main-content-container {
+  padding: 20px;
+  background-color: #f1f1f1;
+  text-align: center;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.main-content-container::-webkit-scrollbar {
+  display: none;
+}
+
+.intro-section {
+  background-color: #6a9a69;
+  color: #fff;
+  padding: 50px 20px;
+}
+
+.intro-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #343652;
+}
+
+.intro-section p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.stats-section {
+  background-color: #e7f7f7;
+  padding: 50px 20px;
+}
+
+.stats-section h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.stat-item {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 200px;
+}
+
+.stat-item h3 {
+  font-size: 2.5rem;
+  color: #4caf50;
+}
+
+.stat-item p {
+  font-size: 1.2rem;
+}
+
+.three-d-section {
+  padding: 50px 20px;
+  background-color: #f8f8f8;
+}
+
+.three-d-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.solutions-section {
+  padding: 50px 20px;
+}
+
+.solutions-section h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.solutions-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.solution-item {
+  width: 200px;
+  text-align: center;
+  background-color: #fff;
+  padding: 30px 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.solution-icon {
+  font-size: 3rem;
+  color: #4caf50;
+}
+
+.solution-item h3 {
+  margin-top: 20px;
+  font-size: 1.5rem;
+}
+
+.cta-section {
+  padding: 50px 20px;
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.cta-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #48517c;
+}
+
+.cta-section p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  background-color: #fff;
+  color: #4caf50;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #4caf50;
+  color: #fff;
+}

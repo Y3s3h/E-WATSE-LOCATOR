@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(135deg, #2b2e4a, #373b52);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.profile-page {
+  font-family: "Arial", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.profile-heading {
+  font-size: 3rem;
+  color: #f8f8f8;
+  margin-bottom: 40px;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  animation: fadeInDown 1s ease-in-out;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.card {
+  background-color: #1f1c2c;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  transform: perspective(1000px) rotateY(0deg) rotateX(0deg);
+  transition: transform 0.5s, box-shadow 0.5s;
+  cursor: pointer;
+  padding: 20px;
+  color: #dcdde1;
+  position: relative;
+}
+
+.card:hover {
+  transform: perspective(1000px) rotateY(10deg) rotateX(10deg);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+}
+
+.card-content {
+  display: flex;
+  align-items: center;
+}
+
+.card-left {
+  flex: 1;
+  padding-right: 20px;
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.card-left h2 {
+  font-size: 1.8rem;
+  color: #ffeaa7;
+  font-weight: bold;
+}
+
+.card-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.progress-bar-container {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: rotate 3s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.progress-bar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: conic-gradient(#636e72 0%, #2d3436 0%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f5f6fa;
+  font-size: 1.3rem;
+  position: relative;
+}
+
+.progress-bar span {
+  position: absolute;
+  font-size: 1.2rem;
+  color: #dcdde1;
+  font-weight: bold;
+}
