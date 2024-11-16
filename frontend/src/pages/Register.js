@@ -207,17 +207,20 @@ const Register = () => {
     }
 
     try {
-      const response = await fetch("http://localhost:5000/api/auth/register", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          email: trimmedEmail,
-          password: trimmedPassword,
-          confirmPassword: trimmedConfirmPassword, // Send confirmPassword to backend
-        }),
-      });
+      const response = await fetch(
+        "https://e-watse-locator.vercel.app/api/auth/register",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            email: trimmedEmail,
+            password: trimmedPassword,
+            confirmPassword: trimmedConfirmPassword, // Send confirmPassword to backend
+          }),
+        }
+      );
 
       const data = await response.json();
       if (response.ok) {
