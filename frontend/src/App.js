@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
+// import { HashRouter as Router } from "react-router-dom";
 // import Footer from "./components/Footer"; // Import Footer component
 import Home from "./pages/Home";
 import Mission from "./pages/Mission";
