@@ -208,7 +208,7 @@ const Register = () => {
 
     try {
       const response = await fetch(
-        "https://e-watse-locator.vercel.app/Routes/auth/register",
+        "https://e-watse-locator.vercel.app/api/auth/register",
         {
           method: "POST",
           headers: {
