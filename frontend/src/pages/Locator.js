@@ -228,7 +228,240 @@ const mapData = {
       },
       id: 20,
     },
-    // Add more features here as per your data...
+
+    {
+      type: "Feature",
+      properties: {
+        Name: "Delhi E-Waste Hub,    Address: B1/14 Basement, EROS Apartment, 56, Nehru Place, New Delhi-110019,  Contact Person: Mr. Ashwani,  Contact Number: 9555999163,    Toll-Free Number: 18001029077",
+      },
+      geometry: {
+        type: "Point",
+        coordinates: [77.25150186625746, 28.550427747938585],
+      },
+      id: 21,
+    },
+    {
+      type: "Feature",
+      properties: {
+        Name: "Mumbai E-Waste Recycling Center,  Address:  Andheri East, Mumbai , Contact Person :  Mr. Rajesh ,  Contact Number:  9876543210",
+      },
+      geometry: {
+        type: "Point",
+        coordinates: [72.8777, 19.076],
+      },
+      id: 22,
+    },
+    {
+      type: "Feature",
+      properties: {
+        Name: "Bangalore E-Waste Solutions , Address:  Whitefield, Bangalore , Contact Person :  Ms. Priya , Contact Number :  9988776655",
+      },
+      geometry: {
+        type: "Point",
+        coordinates: [77.609, 12.9716],
+      },
+      id: 23,
+    },
+    {
+      type: "Feature",
+      properties: {
+        Name: "Hyderabad E-Cycle Hub, Address: Hi-Tec City, Hyderabad , Contact Person: Mr. Ravi, Contact Number: 8899776655",
+      },
+      geometry: {
+        type: "Point",
+        coordinates: [78.474, 17.4285],
+      },
+      id: 24,
+    },
+    {
+      type: "Feature",
+      properties: {
+        Name: "Chennai E-Waste Solutions, Address: T Nagar, Chennai, Contact Person: Ms. Geetha, Contact Number: 7788996655",
+      },
+      geometry: {
+        type: "Point",
+        coordinates: [80.2707, 13.0827],
+      },
+      id: 25,
+    },
+    {
+      type: "Feature",
+      properties: {
+        Name: "Kolkata E-Recycle Center, Address: Park Street, Kolkata, Contact Person: Mr. Deb, Contact Number: 6677889955",
+      },
+      geometry: {
+        type: "Point",
+        coordinates: [88.3639, 22.5726],
+      },
+      id: 26,
+    },
+    {
+      type: "Feature",
+      properties: {
+        Name: "Pune E-Waste Solutions, Address: Koregaon Park, Pune, Contact Person: Ms. Aarti, Contact Number: 5566778899",
+      },
+      geometry: {
+        type: "Point",
+        coordinates: [73.8567, 18.5204],
+      },
+      id: 27,
+    },
+
+    {
+      type: "Feature",
+      properties: {
+        Name: "Kochi E-Waste Solutions, 'Address': Ernakulam, Kochi, Contact Person: Ms. Anitha ,Contact Number: 3344556677",
+      },
+      geometry: {
+        type: "Point",
+        coordinates: [76.2711, 9.9312],
+      },
+      id: 28,
+    },
+    {
+      type: "Feature",
+      properties: {
+        Name: "Bhubaneswar E-Recycle Center, Address': Patia, Bhubaneswar, Contact Person: Mr. Sourav, Contact Number: 2233445566",
+      },
+      geometry: {
+        type: "Point",
+        coordinates: [85.8245, 20.2961],
+      },
+      id: 29,
+    },
+    {
+      type: "Feature",
+      properties: {
+        Name: "Lucknow E-Waste Solutions, Address: Hazratganj, Lucknow, Contact Person: Ms. Neha, Contact Number: 1122334455",
+      },
+      geometry: {
+        type: "Point",
+        coordinates: [80.9479, 26.8467],
+      },
+      id: 30,
+    },
+    {
+      type: "Feature",
+      properties: {
+        Name: "Kanpur E-Cycle Hub, Address: Civil Lines, Kanpur, Contact Person: Mr. Rahul, Contact Number: 0011223344",
+      },
+      geometry: {
+        type: "Point",
+        coordinates: [80.3318, 26.4499],
+      },
+      id: 31,
+    },
+    {
+      type: "Feature",
+      properties: {
+        Name: "Nagpur E-Waste Solutions, Address: Sitabuldi, Nagpur, Contact Person: Ms. Priya, Contact Number: 9988776655",
+      },
+      geometry: {
+        type: "Point",
+        coordinates: [79.109, 21.1458],
+      },
+      id: 32,
+    },
+    {
+      type: "Feature",
+      properties: {
+        Name: "Indore E-Cycle Hub, Address: Vijay Nagar, Indore,  Contact Person: Mr. Ravi,  Contact Number: 8899776655",
+      },
+      geometry: {
+        type: "Point",
+        coordinates: [75.8577, 22.7196],
+      },
+      id: 33,
+    },
+    {
+      type: "Feature",
+      properties: {
+        Name: "Patna E-Waste Solutions,  Address: Patna City, Patna,   Contact Person: Ms. Geetha,  Contact Number: 7788996655",
+      },
+      geometry: {
+        type: "Point",
+        coordinates: [85.124, 25.609],
+      },
+      id: 34,
+    },
+
+    {
+      type: "Feature",
+      properties: {
+        Name: "Ghaziabad E-Waste Hub 1, Address: Indirapuram, Ghaziabad,  Contact Person: Mr. Amit, Contact Number: 9876543210",
+      },
+      geometry: {
+        type: "Point",
+        coordinates: [77.4156, 28.6558],
+      },
+      id: 21,
+    },
+    {
+      type: "Feature",
+      properties: {
+        Name: "Ghaziabad E-Waste Hub 2, Address: Vaishali, Ghaziabad, Contact Person: Ms. Neha, Contact Number: 9876543211",
+      },
+      geometry: {
+        type: "Point",
+        coordinates: [77.4228, 28.6481],
+      },
+      id: 22,
+    },
+    {
+      type: "Feature",
+      properties: {
+        Name: "Ghaziabad E-Waste Hub 3, Address: Sahibabad, Ghaziabad, Contact Person : Mr. Rohit, Contact Number: 9876543212",
+      },
+      geometry: {
+        type: "Point",
+        coordinates: [77.4419, 28.6708],
+      },
+      id: 23,
+    },
+    {
+      type: "Feature",
+      properties: {
+        Name: "Ghaziabad E-Waste Hub 4, Address: Kaushambi, Ghaziabad, Contact Person: Ms. Anjali, Contact Number: 9876543213",
+      },
+      geometry: {
+        type: "Point",
+        coordinates: [77.4333, 28.6261],
+      },
+      id: 24,
+    },
+    {
+      type: "Feature",
+      properties: {
+        Name: "Ghaziabad E-Waste Hub 5,  Address: City Centre, Ghaziabad, Contact Person: Mr. Amit, Contact Number: 9876543214",
+      },
+      geometry: {
+        type: "Point",
+        coordinates: [77.4167, 28.6481],
+      },
+      id: 25,
+    },
+    {
+      type: "Feature",
+      properties: {
+        Name: "Ghaziabad E-Waste Hub 6, Address: Model Town, Ghaziabad, Contact Person: Ms. Neha, Contact Number: 9876543215",
+      },
+      geometry: {
+        type: "Point",
+        coordinates: [77.4111, 28.6597],
+      },
+      id: 26,
+    },
+    {
+      type: "Feature",
+      properties: {
+        Name: "Ghaziabad E-Waste Hub 7, Address: Raj Nagar Extension, Ghaziabad, Contact Person: Mr. Rohit,  Contact Number: 9876543216",
+      },
+      geometry: {
+        type: "Point",
+        coordinates: [77.4056, 28.6694],
+      },
+      id: 27,
+    },
   ],
 };
 
